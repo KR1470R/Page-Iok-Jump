@@ -1,0 +1,432 @@
+/*smartphones*/
+@media screen and (max-width:320px){
+	body{
+		max-width:100%;
+		height:100%;
+		background-repeat: no-repeat;
+		overflow-x: hidden;
+	}
+	.welcome{
+		position: relative;
+		width:100%;
+		left: -8px;	
+		
+	}
+	hr{
+		position: relative;
+		margin-top:40%;
+		animation: poyava 1s;
+		transition: 2s;
+		max-width: 100%;
+	}
+	@keyframes poyava {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width:100%;
+		}
+	}
+	.rocket_img{
+		animation: rocket_fly 1s;
+	}
+	@keyframes rocket_fly{
+		0%{
+			position: relative;
+			top:100px
+		}
+		100%{
+			position:relative;
+			top:-20px;
+		}
+	}
+	.bg{
+		width: 100%;
+		height: 125%;
+	}
+	.glad{
+		position: relative;
+		font-size: 25px;
+		left:1em;
+		top:-3em;
+	}
+	.download{
+		position: relative;
+		left: 4.6em;
+		top: -10em;
+	}
+	.heart{
+		position: relative;
+		top:-38em;
+		left:-0.5em;
+	}
+	.foter{
+		position: relative;
+		top:-22.5em;
+		left:-0.2em;
+		font-size: 30px;
+	}
+	.input_name{
+		position: relative;
+		top:-24em;
+		width:100%;
+	}
+	.input_comment{
+		position: relative;
+		top:-24em;
+		width:100%;
+	}
+	.comfirm{
+		position: relative;
+		top:-23.4em;
+		left:11em;
+	}
+	.zone_comments{
+		position: relative;
+		left:-540px;
+		width:106%;
+		top:-300px;
+	}
+	p{
+		width:300px;
+	}
+}
+
+@media screen and (max-width:375px){
+	body{
+		max-width:100%;
+		height:100%;
+		background-repeat: no-repeat;
+		overflow-x: hidden;
+	}
+	.welcome{
+		position: relative;
+		width:100%;
+		left: -8px;	
+		
+	}
+	hr{
+		position: relative;
+		margin-top:35%;
+		animation: poyava 1s;
+		transition: 2s;
+		max-width: 100%;
+	}
+	@keyframes poyava {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width:100%;
+		}
+	}
+	.rocket_img{
+		animation: rocket_fly 1s;
+	}
+	@keyframes rocket_fly{
+		0%{
+			position: relative;
+			top:100px
+		}
+		100%{
+			position:relative;
+			top:-120px;
+		}
+	}
+	.bg{
+		width: 100%;
+		height: 137%;
+	}
+	.glad{
+		position: relative;
+		font-size: 23px;
+		left:1em;
+		top:-3em;
+	}
+	.download{
+		position: relative;
+		left: 4.1em;
+		top: -11em;
+	}
+	.heart{
+		position: relative;
+		top:-38em;
+		left:-0.5em;
+	}
+	.foter{
+		position: relative;
+		top:-22.5em;
+		left:-0.2em;
+		font-size: 30px;
+	}
+	.input_name{
+		position: relative;
+		top:-24em;
+		width:100%;
+	}
+	.input_comment{
+		position: relative;
+		top:-24em;
+		width:100%;
+	}
+	.comfirm{
+		position: relative;
+		top:-23.4em;
+		left:11em;
+	}
+	.zone_comments{
+		position: relative;
+		left:-540px;
+		width:106%;
+		top:-300px;
+	}
+	p{
+		width:300px;
+	}
+}
+
+@media screen and (max-width:500px){
+	body{
+		max-width:110%;
+		height:100%;
+		overflow-x: hidden;
+	}
+	.welcome{
+		position: relative;
+		width:100%;
+		left: -8px;	
+		
+	}
+	hr{
+		position: relative;
+		margin-top:25%;
+		animation: poyava 1s;
+		transition: 2s;
+		max-width: 100%;
+	}
+	@keyframes poyava {
+		0%{
+			width: 0%;
+		}
+		100%{
+			width:100%;
+		}
+	}
+	.rocket_img{
+		animation: rocket_fly 1s;
+		width:50%;
+		height: auto;
+	}
+	@keyframes rocket_fly{
+		0%{
+			position: relative;
+			top:100px
+		}
+		100%{
+			position:relative;
+			top:-120px;
+		}
+	}
+	.bg{
+		width: 110%;
+		height: 137%;
+	}
+	.glad{
+		position: relative;
+		font-size: 23px;
+		left:1em;
+		top:-3em;
+	}
+	.download{
+		position: relative;
+		left: 4.1em;
+		top: -11em;
+	}
+	.heart{
+		position: relative;
+		top:-38em;
+		left:-0.5em;
+	}
+	.foter{
+		position: relative;
+		top:-22.5em;
+		left:-0.2em;
+		font-size: 30px;
+	}
+	.input_name{
+		position: relative;
+		top:-24em;
+		width:100%;
+	}
+	.input_comment{
+		position: relative;
+		top:-24em;
+		width:100%;
+	}
+	.comfirm{
+		position: relative;
+		top:-23.4em;
+		left:11em;
+	}
+	.zone_comments{
+		position: relative;
+		left:-540px;
+		width:106%;
+		top:-300px;
+	}
+	p{
+		width:300px;
+	}
+}
+
+
+
+
+/* Tables*/
+@media screen and (max-width: 768px){
+	body{
+		height:280vh;
+	}
+	.welcome{
+		font-size: 40px;
+		margin-top: 80px;
+	}
+	.download{
+		position: absolute;
+		margin-left: -450px;
+		top: 190px;
+	}
+	
+	.shop_button{
+		position:absolute;
+		margin-left:80%;
+		top:-15px;
+		width: 10%;
+		height: auto;
+	}
+	.rocket_img{
+		width:100%;
+		height:auto;
+	}
+	.glad{
+		font-size: 50px;
+		position: absolute;
+		left:0px;
+		top:830px;
+	}
+	.bg{
+		height: 1200px;
+		width:768px;
+	}
+	.zone_comments{
+		position: absolute;
+		left:-530px;
+		width:500px;
+		top:2500px;
+	}
+	.heart{
+		position: relative;
+		top:30px;
+	}
+	.foter{
+		position: relative;
+		top: -45px;
+	}
+	p{
+		width:480px;
+	}
+}
+/*Phones*/
+@media screen and (max-width: 500px){
+	body{
+		height:210vh;
+	}
+	.shop_button{
+		position: absolute;
+		width:15%;
+		height: auto;
+		margin-left: 300px;
+		margin-top:90px;
+	}
+	.rocket_img{
+		position: relative;
+		text-align: center;
+		margin-top: -100px;
+	}
+	hr{
+		position: relative;
+		top:-200px;
+	}
+	.trata{
+		text-align: center;
+	}
+	.download{
+		position: absolute;
+		margin-top: 120%;
+	}
+	.glad{
+		position: absolute;
+		top:800px;
+		left:40px;
+	}
+	.heart{
+		margin-top: 300px;
+	}
+	.foter{
+		margin-top:10px;
+	}
+	.input_comment{
+		width:450px;
+	}
+	.zone_comments{
+		top:1050px;	
+
+		width:450px;
+	}
+}
+/*Laptops*/
+@media screen and (max-width: 1500px){
+	body{
+		height:100vh;
+	}
+
+	.rocket_img{
+		text-align: center;
+		width: 100%;
+		height: auto;
+	}
+	.bg{
+		width:100%;
+		height: 1000px;
+	}
+	.heart{
+		top:-180px;
+	}
+	.glad{
+		left:600px;
+	}
+	.download{
+		top:-600px;
+		left:350px;
+	}
+	.foter{
+		top:-240px;
+	}
+	.input_name{
+		top:-200px;
+	}
+	.input_comment{
+		top:-200px;
+	}
+	.comfirm{
+		top:-100px;
+	}
+	.zone_comments{
+		width:750px;
+		top:-220px;
+	}
+	.shop_button{
+		left:70px;
+	}
+}
+
